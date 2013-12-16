@@ -21,7 +21,8 @@ class MegaSena(object):
             self.game.append(l)
             
     def show(self):
-        print self.game.sort()
+        self.game.sort()
+        print self.game
 
 sena_1 = MegaSena()
 sena_1.generate_numbers()
